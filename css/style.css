@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
-}   
+}  
+ 
   body {
     background: #EFECEC;
+
 } 
    
 .poppins-thin {
@@ -100,6 +102,12 @@ a.care-bt {
     border-radius: 20px;
     color: white;
 }
+
+
+
+
+
+z
 
 /* about */
 
@@ -237,6 +245,37 @@ a.more {
     box-shadow: inset 0px 20px 4px 0px #9f9f9f;
 }
 
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+.nav-menu {
+  display: none; /* Mobile default */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}.nav-menu.active {
+  display: flex;
+}
+
+.nav-menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+
     /* /////////////// */
 
 section#choose-us {
@@ -282,17 +321,34 @@ a.more-btn {
 .teen-box p{
     margin-top: 9px;
 }
+.teen-box1 h6{
+    font-size: 20px;
+}
+.teen-box1 p{
+    margin-top: 9px;
+}
 
 .teen-box {
     background: #F9F9F9;
     color: #736C6C;
-    padding: 18px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 3px 0px 0px #a1a1a1;
     display: flex;
   flex-direction: column;
   justify-content: flex-start; /* 👈 MUST */
   margin-bottom: 24px;
+}
+.teen-box1 {
+    background: #F9F9F9;
+    color: #736C6C;
+    padding: 21px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px 0px #a1a1a1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 24px;
 }
 .row.teen {
     margin-left: 30px;
