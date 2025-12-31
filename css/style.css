@@ -102,6 +102,26 @@ a.care-bt {
     border-radius: 20px;
     color: white;
 }
+nav#navMenu {
+    display: none;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
 
 
 
@@ -154,9 +174,10 @@ a.more {
 #about {
     margin-top: 60px;
     background: white;
-    padding-top: 10px;
-    padding-bottom: 18px;
+    padding-top: 66px;
+    padding-bottom: 37px;
 }
+
 .box img{
   position: relative;
 }
@@ -245,35 +266,6 @@ a.more {
     box-shadow: inset 0px 20px 4px 0px #9f9f9f;
 }
 
-.toggle-btn {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-  display: block;
-}
-.nav-menu {
-  display: none; /* Mobile default */
-  flex-direction: column;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background: #333;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}.nav-menu.active {
-  display: flex;
-}
-
-.nav-menu li a {
-  display: block;
-  padding: 15px 20px;
-  color: white;
-  text-decoration: none;
-}
 
 
     /* /////////////// */
@@ -288,6 +280,9 @@ section#choose-us {
     text-decoration: underline;
     font-size: 22px;
     margin-bottom: 20px;
+}
+.why-choose {
+    padding-bottom: 42px;
 }
 a.more-btn {
     background: #00A3E0;
@@ -639,4 +634,75 @@ button.sub-bt {
     flex-direction: column;
     gap: 20px;
     color: white;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #222;
+  color: #fff;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.toggle-btn{
+  font-size: 26px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .toggle-btn{
+    display: block;
+  }
+
+  .menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+  }
+
+  .menu.active{
+    display: flex;
+  }
+
+  .menu li{
+    padding: 15px 0;
+  }
+}
+.menu {
+    /* list-style: none; */
+    display: none;
+    /* gap: 20px; */
 }

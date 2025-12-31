@@ -40,11 +40,20 @@
                             <a href="contact.html">CONTACT</a>
                         </div>
 
-                        
-                        
+                        <div class="toggle-btn" id="toggleBtn">
+                            ☰
+                        </div>
+
+                        <ul class="menu" id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
 
 
-                        
+
+
+
                     </div>
                 </div>
             </header>
@@ -643,18 +652,21 @@
                                 <h4>Get our wellness newsletter</h4>
                                 <p>Filter out the noise and nurture your inbox with health and wellness advice that’s
                                     inclusive and rooted in medical expertise.</p>
-                                      <form class="sign-form">
-                                            <div class="mail">
-                                                <input type="mail" placeholder="Enter Your Email" required>
-                                            </div>
-                                            <button class="sub-bt" type="submit">SIGN UP</button>
-                                        </form>
-                                 <span>Your Privacy. is important to us</span>
-                                 <p class="heal">2025 HEAL TRUST Media LLC. All rights reserved. Heal Trust media is an RVO HEAL TRUST company.Our website services, content, and products are for informational purpose only. Heal Trust media does not provide medical advice, diagnosis or treatment,See additional information.</p>       
+                                <form class="sign-form">
+                                    <div class="mail">
+                                        <input type="mail" placeholder="Enter Your Email" required>
+                                    </div>
+                                    <button class="sub-bt" type="submit">SIGN UP</button>
+                                </form>
+                                <span>Your Privacy. is important to us</span>
+                                <p class="heal">2025 HEAL TRUST Media LLC. All rights reserved. Heal Trust media is an
+                                    RVO HEAL TRUST company.Our website services, content, and products are for
+                                    informational purpose only. Heal Trust media does not provide medical advice,
+                                    diagnosis or treatment,See additional information.</p>
 
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ">
                             <div class="about1">
                                 <div>About Us</div>
                                 <div>Contact Us</div>
@@ -863,6 +875,25 @@
             autoplaySpeed: 2000,
         });
     </script>
+
+
+    <script>
+  const toggleBtn = document.getElementById("toggleBtn");
+  const menu = document.getElementById("menu");
+
+  toggleBtn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+
+    if (menu.classList.contains("active")) {
+      toggleBtn.innerHTML = "✖";
+    } else {
+      toggleBtn.innerHTML = "☰";
+    }
+  });
+</script>
+
+
+
 
     -
 </body>
