@@ -1,0 +1,76 @@
+@media screen and (max-width:1299px) {
+   
+    
+}
+@media screen and (max-width:1200px) {
+    .brain-img {
+    scale: 1.2;
+    margin-bottom: 31px;
+}
+   
+    
+  
+}
+@media screen and (max-width:1023px) {
+   #about {
+    margin-top: 60px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 46px;
+}
+.about-cnt p{
+    padding-bottom: 18px;
+}
+.about-cnt h6{
+    margin-top: 10px;
+}
+.icon {
+    position: absolute;
+    top: 33%;
+}
+.teen-box {
+    margin-bottom: 29px;
+}
+.teen-box h6 {
+    font-size: 18px;
+}
+.boxes-1 {
+    padding: 4px 20px;
+    border-radius: 4px;
+    color: #00A3E0;
+    /* text-align: center; */
+    box-shadow: 0px 2px 0px 0px #777777;
+}
+.help-section {
+    gap: 10px;
+}
+button.submit {
+    padding-left: 46px;
+    padding-right: 47px;
+}
+.brain-img {
+    scale: 1.5;
+    margin-top: 38px;
+}
+
+    
+}
+
+@media screen and (max-width:991px) {
+  
+}
+@media screen and (max-width:767px) {
+   
+
+
+}
+@media screen and (max-width:575px) {
+}
+    
+@media screen and (max-width:425px) {
+   
+    
+}
+@media screen and (max-width:365px) {
+  
+}
