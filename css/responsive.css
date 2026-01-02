@@ -230,9 +230,11 @@ section#help {
     width: 100%;
     height: 100%;
 }
-.main-btn {
-    display: none;
-}
+
+  .main-btn {
+    display: none !important;
+  }
+
 
 
 .hero-cnt h1{
