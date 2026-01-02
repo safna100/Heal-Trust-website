@@ -421,4 +421,39 @@ ul#menu {
   flex: 1;          /* equal width */
   max-width: 380px; /* ivide koottaam */
 }
+h2 {
+    font-size: 20px;   /* 18–22px safe range */
+    line-height: 1.3;
+  }
+
+  p {
+    font-size: 14px;   /* 13–15px best */
+    line-height: 1.6;
+  }
+  .choose-cnt {
+    margin-top: 10px;
+    padding: 5px 33px;
+}
+.teen-box1 {
+    margin-top: 40px;
+}
+.boxes-1 {
+    padding: 1px 8px;
+    border-radius: 4px;
+    color: #00A3E0;
+    text-align: center;
+    box-shadow: 0px 2px 0px 0px #777777;
+}
+.help-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    gap: 10px;
+}
 }
