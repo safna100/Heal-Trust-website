@@ -371,3 +371,40 @@ ul#menu {
 @media screen and (max-width:365px) {
   
 }
+@media (min-width: 321px) and (max-width: 482px) {
+    .main-btn {
+    display: none;
+}
+.hero-cnt {
+    position: absolute;
+    /* bottom: 48%; */
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    top: 1% !important;
+}
+.hero-cnt h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.about-img img {
+    padding-left: 33px;
+    scale: 1;
+}
+.about-cnt {
+    margin-left: 33px;
+}
+.icon {
+    position: absolute;
+    top: 9%;
+    scale: .9;
+}
+.dote {
+    background: #00A3E0;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 50px;
+}
+}
