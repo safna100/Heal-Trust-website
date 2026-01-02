@@ -706,3 +706,13 @@ button.sub-bt {
     display: none;
     /* gap: 20px; */
 }
+
+
+
+#hero {
+  height: auto;
+}
+
+.hero-section {
+  height: auto;
+}
