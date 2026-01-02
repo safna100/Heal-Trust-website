@@ -381,9 +381,12 @@ ul#menu {
     font-size: 14px;
     line-height: 1.6;
   }
+
   .main-btn {
-    display: none;
-}
+    display: none !important;
+  }
+
+
 }
 
 
