@@ -716,3 +716,28 @@ button.sub-bt {
 .hero-section {
   height: auto;
 }
+
+/* //////////////////// */
+
+#hero {
+  height: auto !important;
+  min-height: 100vh;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero-cnt {
+  position: relative;
+  max-width: 600px;
+}
