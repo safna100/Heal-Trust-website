@@ -710,23 +710,18 @@ button.sub-bt {
 
 
 #hero {
-  height: auto;
+    margin-top: 12px;
 }
 
-.hero-section {
-  height: auto;
-}
 
 /* //////////////////// */
 
-#hero {
-  height: auto !important;
-  min-height: 100vh;
-}
+
 .hero-section {
-  display: flex;
-  align-items: center;
-  position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
 }
 
 .hero-section img {
