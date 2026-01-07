@@ -66,9 +66,17 @@ a{
 .menue a{
   color: #000;
 }
-.hero-section img{
+/* .hero-section img{
   position: relative;
+} */
+ .hero-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
+
 .hero-cnt {
     position: absolute;
     /* bottom: 48%; */
