@@ -366,10 +366,10 @@ ul#menu {
 
 @media (max-width: 600px) {
 
-  #hero {
+  /* #hero {
     min-height: auto;
     padding: 40px 16px 60px;
-  }
+  } */
 
   .hero-section {
     align-items: flex-start;
@@ -450,10 +450,7 @@ ul#menu {
     display: block;
     width: 50%;
 } */
- .box {
-  flex: 1;          /* equal width */
-  max-width: 380px; /* ivide koottaam */
-}
+ 
 h2 {
     font-size: 20px;   /* 18–22px safe range */
     line-height: 1.3;
@@ -493,7 +490,7 @@ h2 {
     font-size: 12px;
 }
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
   .hero {
     height: auto !important;
@@ -527,14 +524,14 @@ h2 {
     line-height: 1.6;
   }
 
-}
-@media screen and (max-width:475px) {
+} */
+/* @media screen and (max-width:475px) {
     .hero-cnt p br{
         display: none;
     }
-}
+} */
 
-
+/* 
 @media screen and (max-width:479px) {
     .icon {
     position: absolute;
@@ -556,7 +553,58 @@ h2 {
     transform: none;
   }
   
-}
+} */
 @media screen and (max-width:365px) {
   
+}
+
+
+
+@media (min-width:321px) and (max-width:482px) {
+    .hero-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+     padding-bottom: 0px; 
+}
+.about-img img {
+    padding-left: 56px;
+}
+#about {
+    padding-top: 20px;
+    padding-bottom: 37px;
+}
+
+.about {
+    margin-top: 0;
+}
+
+.about-img img {
+    display: block;
+}
+.icon {
+    position: absolute;
+    top: 10%;
+    scale: .9;
+}
+
+.service-cnt {
+        padding-top: 20px;
+    }
+
+    .box {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .slick-slide {
+        margin-right: 0;
+    }
+
+    .councelling {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
 }
