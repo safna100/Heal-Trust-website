@@ -294,7 +294,7 @@ a.more-btn {
     border-radius: 20px;
 }
 .choose-cnt p {
-    text-align: justify;
+    /* text-align: justify; */
     margin-top: 20px;
     padding-bottom: 25px;
 }
