@@ -630,6 +630,15 @@ h2 {
 .hero-section {
     padding-top: 13px;
 }
+.hero-cnt {
+    position: absolute;
+    /* bottom: 48%; */
+    left: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    top: 1.3% !important;
+}
   
 
 }
