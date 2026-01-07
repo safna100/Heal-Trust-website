@@ -232,16 +232,8 @@ section#help {
     height: 100%;
 }
 
- .hero-cnt h1 {
-    font-size: 24px;
-  }
-
-  .hero-cnt p {
-    font-size: 14px;
-  }
-
-  .hero-cnt .main-btn {
-    display: none;
+.main-btn {
+      display:none;
   }
   
 
