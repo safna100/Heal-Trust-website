@@ -624,7 +624,9 @@ h2 {
   .slick-slide {
     padding: 0 8px;
   }
-  
+  .main-btn {
+    display: none;
+}
   
 
 }
