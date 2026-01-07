@@ -607,4 +607,23 @@ h2 {
     }
 
 
+    .\31 st-member {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .\31 st-member img {
+    width: 100%;
+    display: block;
+  }
+
+  .team-cnt {
+    padding: 12px 8px 16px;
+  }
+
+  .slick-slide {
+    padding: 0 8px;
+  }
+
+
 }

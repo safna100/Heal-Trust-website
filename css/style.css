@@ -457,6 +457,19 @@ form.signup-form {
     width: fit-content;
     box-shadow: 0px 2px 1px 1px #b7b7b7;
 } */
+
+.\31 st-member {
+    width: 100%;
+    max-width: 100%;
+}
+.\31 st-member img {
+    width: 100%;
+    display: block;
+}
+.team-cnt {
+    padding: 12px 8px 16px;
+}
+
 .team-cnt {
     text-align: center;
     margin-top: 5px;
