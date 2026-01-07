@@ -538,11 +538,7 @@ h2 {
     top: 48%;
     scale: .9;
 }
-.box {
-    flex: 1;
-    max-width: 380px;
-    margin-left: 37px;
-}
+
   .hero {
     height: auto;
     padding: 40px 20px;
@@ -584,7 +580,7 @@ h2 {
 }
 .icon {
     position: absolute;
-    top: 10%;
+    top: 20%;
     scale: .9;
 }
 
@@ -597,10 +593,13 @@ h2 {
         margin: 0 auto;
     }
 
-    .slick-slide {
+    /* .slick-slide {
         margin-right: 0;
+    } */
+     .slick-slide {
+        padding: 0 4px;   /* 👈 gap */
+        box-sizing: border-box;
     }
-
     .councelling {
         padding-left: 20px;
         padding-right: 20px;
