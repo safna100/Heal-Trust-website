@@ -232,7 +232,17 @@ section#help {
     height: 100%;
 }
 
+ .hero-cnt h1 {
+    font-size: 24px;
+  }
 
+  .hero-cnt p {
+    font-size: 14px;
+  }
+
+  .hero-cnt .main-btn {
+    display: none;
+  }
   
 
 
@@ -579,15 +589,6 @@ h2 {
 }
 
 
-.main-btn,
-  .contact-bt {
-    display: none !important;
-  }
-
-  .hero-cnt {
-    position: absolute;
-    top: 6%;
-  }
 
 
 .service-cnt {
