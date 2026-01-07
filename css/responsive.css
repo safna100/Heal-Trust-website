@@ -627,6 +627,9 @@ h2 {
   .main-btn {
     display: none;
 }
+.hero-section {
+    padding-top: 13px;
+}
   
 
 }
