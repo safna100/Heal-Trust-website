@@ -77,15 +77,28 @@ a{
   object-fit: cover;
 }
 
-.hero-cnt {
+/* .hero-cnt {
     position: absolute;
-    /* bottom: 48%; */
     left: 9%;
     display: flex;
     flex-direction: column;
     gap: 20px;
     top: 5% !important;
+} */
+
+.hero-section {
+  position: relative;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
 }
+
+.hero-cnt {
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
 h1 {
     color: white;
     font-size: 56px;
