@@ -231,6 +231,9 @@ section#help {
     width: 100%;
     height: 100%;
 }
+.hero-cnt .main-btn {
+    display: none;
+  }
 
   
 
