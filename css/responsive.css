@@ -394,6 +394,9 @@ ul#menu {
 }
     
 @media screen and (max-width:425px) {
+    .main-btn {
+    display: none;
+}
    
     
 }
