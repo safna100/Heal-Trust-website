@@ -19,17 +19,6 @@
     z-index: 100;
     margin-top: 17px;
 }
-.menu {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background: #333;
-    flex-direction: column;
-    text-align: center;
-    display: none;
-    padding-top: 216px;
-}
 
    
     
