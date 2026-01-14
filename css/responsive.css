@@ -1,4 +1,7 @@
 @media screen and (max-width:1299px) {
+    .contact-bt {
+    display: none;
+}
    
     
 }
@@ -11,7 +14,7 @@
     
 }
 @media  (min-width:321px) and (max-width:482px) {
-    
+
    
     
 }
