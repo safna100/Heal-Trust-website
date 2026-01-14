@@ -99,6 +99,7 @@ a{
   padding: 20px;
 }
 
+
 h1 {
     color: white;
     font-size: 56px;
@@ -754,11 +755,12 @@ button.sub-bt {
 /* //////////////////// */
 
 
+
 .hero-section {
     display: flex;
     align-items: center;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 87px;
 }
 
 .hero-section img {
@@ -770,8 +772,9 @@ button.sub-bt {
   z-index: -1;
 }
 .hero-cnt {
-  position: relative;
-  max-width: 600px;
+    position: relative;
+    max-width: 600px;
+    margin-left: 50px;
 }
      /* ////////////////////////// */
 
