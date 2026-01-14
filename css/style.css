@@ -775,7 +775,9 @@ button.sub-bt {
     position: relative;
     max-width: 600px;
     margin-left: 50px;
+    margin-top: 50px;
 }
+
      /* ////////////////////////// */
 
      .box {
