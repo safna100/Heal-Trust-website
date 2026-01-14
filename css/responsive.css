@@ -18,6 +18,10 @@
     
 }
 @media  (min-width:321px) and (max-width:482px) {
+    h1 {
+    color: white;
+    font-size: 30px;
+}
 
    
     
