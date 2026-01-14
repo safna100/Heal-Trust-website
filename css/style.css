@@ -788,3 +788,85 @@ button.sub-bt {
     width: 100%;
     display: block;
 }
+/* /////////////////////// */
+
+
+
+/* Mobile Menu Fix */
+#menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden by default */
+    height: 100vh;
+    width: 280px;
+    background: #000 !important; /* Black background */
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.3s ease;
+    padding: 2rem 0;
+}
+
+#menu.active {
+    right: 0 !important; /* Show menu when active */
+}
+
+#menu li {
+    margin: 1.5rem 0;
+    list-style: none;
+}
+
+#menu li a {
+    color: #fff !important; /* White text */
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#menu li a:hover {
+    color: #4a90e2 !important; /* Blue hover */
+}
+
+/* Toggle Button Fix */
+.toggle-btn {
+    display: none; /* Hide on desktop */
+}
+
+@media (max-width: 768px) {
+    .toggle-btn {
+        display: block !important;
+        z-index: 10000;
+        font-size: 1.5rem;
+        cursor: pointer;
+        padding: 0.5rem;
+        background: rgba(255,255,255,0.9);
+        border-radius: 5px;
+    }
+    
+    .menue {
+        display: none !important; /* Hide desktop menu on mobile */
+    }
+}
+
+/* Overlay for mobile menu */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
