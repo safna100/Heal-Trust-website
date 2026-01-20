@@ -17,7 +17,10 @@
 .menu.active {
     display: flex;
     z-index: 100;
-    margin-top: 17px;
+    margin-top: 77px;
+}
+div#toggleBtn {
+    display: block;
 }
 
    
@@ -36,3 +39,6 @@
    
     
 }
+
+
+
