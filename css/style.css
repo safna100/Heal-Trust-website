@@ -773,7 +773,6 @@ button.sub-bt {
 }
 .hero-cnt {
     position: relative;
-    /* max-width: 600px; */
     margin-left: 50px;
     margin-top: 50px;
     display: flex;
