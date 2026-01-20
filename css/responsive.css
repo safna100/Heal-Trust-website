@@ -35,6 +35,24 @@ div#toggleBtn {
     color: #e9e9e9;
     margin-top: 23px;
 }
+.icon {
+    position: absolute;
+    top: 20%;
+}
+.choose-cnt {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.services {
+    margin-left: 30px;
+}
+.about-cnt {
+    margin-left: 30px;
+}
+.about-img {
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
 
    
     
