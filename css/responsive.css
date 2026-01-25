@@ -138,7 +138,9 @@ button.submit {
     border: none;
     padding: 10px;
 }
-   
+   .team-cnt span {
+    font-size: 15px;
+}
     
 }
 
