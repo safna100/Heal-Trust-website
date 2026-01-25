@@ -94,6 +94,11 @@ button.submit {
     border: none;
     padding: 12px;
 }
+.\31 st-member {
+    width: 100%;
+    max-width: 100%;
+    border: solid 1px #c9c9c9;
+}
 
    
     
