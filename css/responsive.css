@@ -23,9 +23,29 @@ div#toggleBtn {
     display: block;
 }
 
+
+
    
     
 }
+
+@media (max-width: 767px) {
+
+  .hero-cnt,
+  .choose-cnt,
+  .services,
+  .about-cnt,
+  .about-img,
+  .row.teen,
+  .getin-touch-cnt {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
 @media  (min-width:321px) and (max-width:482px) {
     h1 {
     color: white;
