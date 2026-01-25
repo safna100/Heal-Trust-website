@@ -76,6 +76,10 @@ div#toggleBtn {
     /* text-align: center; */
     box-shadow: 0px 2px 0px 0px #777777;
 }
+input[type="email"] {
+    width: fit-content;
+    padding: 10px 14px;
+}
 
    
     
