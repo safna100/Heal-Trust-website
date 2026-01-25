@@ -131,6 +131,13 @@ button.submit {
     position: absolute;
     top: 14%;
 }
+button.submit {
+    /* padding: -0px 45px; */
+    background-color: #6FA3B7;
+    color: white;
+    border: none;
+    padding: 10px;
+}
    
     
 }
