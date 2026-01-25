@@ -119,10 +119,11 @@ a.explore-bt {
     color: #0078D7;
 }
 a.care-bt {
-    border: solid 1px #0078D7;
+    /* border: solid 1px #0078D7; */
     padding: 10px 50px;
     border-radius: 20px;
-    color: white;
+    color: #ffffff;
+    background: #00000075;
 }
 nav#navMenu {
     display: none;
