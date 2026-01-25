@@ -126,7 +126,10 @@ button.submit {
     border: none;
     padding: 11px;
 }
-
+.icon {
+    position: absolute;
+    top: 50%;
+}
    
     
 }
