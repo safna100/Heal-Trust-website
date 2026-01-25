@@ -110,6 +110,14 @@ ss
 .\31 st-member {
     border: #bdbdbd solid 1px;
 }
+.hero-cnt {
+    position: relative;
+    margin-left: 26px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
    
     
