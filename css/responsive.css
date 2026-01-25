@@ -141,6 +141,13 @@ button.submit {
    .team-cnt span{
     font: 15px;
    }
+   button.submit {
+    /* padding: -0px 45px; */
+    background-color: #6FA3B7;
+    color: white;
+    border: none;
+    padding: 9px;
+}
     
 }
 
