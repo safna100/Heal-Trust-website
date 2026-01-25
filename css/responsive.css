@@ -118,6 +118,7 @@ ss
     flex-direction: column;
     gap: 10px;
 }
+
 button.submit {
     /* padding: -0px 45px; */
     background-color: #6FA3B7;
