@@ -266,6 +266,9 @@ button.sub-bt {
 .team-heading h2 br{
     display: none;
 }
+.team-cnt span {
+    font-size: 13px;
+}
 
 
     
