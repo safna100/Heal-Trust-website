@@ -193,6 +193,10 @@ button.sub-bt {
     background: #00A3E0;
     color: white;
 }
+.icon {
+    position: absolute;
+    top: 47%;
+}
     
 }
 
