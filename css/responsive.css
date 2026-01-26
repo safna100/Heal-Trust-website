@@ -254,12 +254,7 @@ button.sub-bt {
 .icon {
     top: 39%;
 }
-button.sub-bt {
-    padding: 1px 50px;
-    border: none;
-    background: #00A3E0;
-    color: white;
-}
+
 
 
 button.sub-bt {
@@ -270,6 +265,13 @@ button.sub-bt {
 }
 button.sub-bt {
     padding: 1px 48px;
+    border: none;
+    background: #00A3E0;
+    color: white;
+}
+
+button.sub-bt {
+    padding: 1px 29px;
     border: none;
     background: #00A3E0;
     color: white;
