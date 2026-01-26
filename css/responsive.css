@@ -268,6 +268,12 @@ button.sub-bt {
     background: #00A3E0;
     color: white;
 }
+button.sub-bt {
+    padding: 1px 48px;
+    border: none;
+    background: #00A3E0;
+    color: white;
+}
 
 
     
