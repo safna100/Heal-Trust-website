@@ -230,6 +230,12 @@ button.sub-bt {
 .icon {
     top: 39%;
 }
+.help-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
 
 
     
