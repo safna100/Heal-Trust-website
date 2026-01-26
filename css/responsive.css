@@ -236,6 +236,12 @@ button.sub-bt {
     flex-direction: column;
     gap: 13px;
 }
+.help-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
 
 
     
