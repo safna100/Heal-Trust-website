@@ -263,6 +263,9 @@ button.sub-bt {
     background: #00A3E0;
     color: white;
 }
+.team-heading h2 br{
+    display: none;
+}
 
 
     
